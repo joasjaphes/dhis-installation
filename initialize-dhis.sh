@@ -1,3 +1,3 @@
 docker-compose down
 docker-compose up --build
-docker docker exec db psql -U dhis -c "CREATE DATABASE zess"
+docker exec zess-db psql -U dhis -c "CREATE DATABASE zess"
