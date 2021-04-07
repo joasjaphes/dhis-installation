@@ -1,2 +1,2 @@
-docker-compose down
-docker-compose up --build
+sh shutdown.sh
+sh start.sh
