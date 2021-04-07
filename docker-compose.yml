@@ -13,7 +13,7 @@ services:
     networks: 
       - backend
   web:
-    image: monitafrica/facilitydhis:1.0.0
+    image: dhis2/core:2.33.0
     volumes:
       - ./config/dhis2_home/dhis.conf:/DHIS2_home/dhis.conf
     container_name: zess-dhis
