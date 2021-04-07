@@ -1,0 +1,1 @@
+docker exec zess-db psql -U dhis zess < /db-backups/backup-2021-04-07_15:32.sql
