@@ -3,7 +3,7 @@ services:
   db:
     image: mdillon/postgis:10-alpine
     volumes: 
-      - ./backups:/db-backups/
+      - ./dhis:/db-backups/
       - db-data:/var/lib/postgresql/data
     command: postgres -c max_locks_per_transaction=100
     container_name: zess-db
