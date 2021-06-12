@@ -1,5 +1,6 @@
-docker container stop zess-dhis
-docker exec zess-db bash
+docker container stop jostano-dhis
+docker exec -it jostano-db bash
 cd db-backups
-psql -U dhis zess < zess.sql
-docker container start zess-dhis -d
+psql -U dhis jostano < initial_db.sql
+docker container start jostano-dhis
+exit

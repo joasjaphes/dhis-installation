@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "Jostano Web App",
+  "description": "System For Jostano Investment",
+  "appType": "APP",
+  "launch_path": "index.html",
+  "icons": {
+  },
+  "developer": {
+    "name": "Joas Japhes",
+    "url": "https://jcom.tech.live",
+    "email": "joasjaphes665@gmail.com"
+  },
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+        "href":"http://localhost:8080/api/",
+        "href1": "../../../api/"
+    }
+  },
+  "authorities": [
+  ]
+}

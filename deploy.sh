@@ -1,0 +1,1 @@
+cp -a ../zess-mrs-web/dist/zess-mrs-web/.  app/zess-mrs-web/
