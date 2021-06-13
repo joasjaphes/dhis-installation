@@ -24,18 +24,18 @@ services:
       - db
     networks: 
       - backend
-  app-web:
-    image: nginx:latest
-    build: 
-      context: .
-      dockerfile: dockerfile
-    container_name: jostano-web
-    ports:
-      - "4300:80"
-    depends_on: 
-      - dhis-web
-    networks:
-      - backend
+  # app-web:
+  #   image: nginx:latest
+  #   build: 
+  #     context: .
+  #     dockerfile: dockerfile
+  #   container_name: jostano-web
+  #   ports:
+  #     - "4300:80"
+  #   depends_on: 
+  #     - dhis-web
+  #   networks:
+  #     - backend
 networks:
   backend:
     driver: "bridge"
